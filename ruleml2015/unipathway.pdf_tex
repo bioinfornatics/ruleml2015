@@ -1,0 +1,83 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'unipathway.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{214.12263797bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.64818539)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{unipathway.pdf}}%
+    \put(0.30905124,1.61979921){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2-oxoglutarate}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{unipathway.pdf}}%
+    \put(0.36530972,1.53105489){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00028}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{unipathway.pdf}}%
+    \put(0.36534621,1.39606765){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00029}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{unipathway.pdf}}%
+    \put(0.37755993,1.2610804){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER1027}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{unipathway.pdf}}%
+    \put(0.36527324,1.12609342){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00030}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{unipathway.pdf}}%
+    \put(0.36575668,0.99110626){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00031}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{unipathway.pdf}}%
+    \put(0.77026393,0.77336884){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00035}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{unipathway.pdf}}%
+    \put(0.76980785,0.64251133){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00036}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{unipathway.pdf}}%
+    \put(0.77022744,0.51165391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00037}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{unipathway.pdf}}%
+    \put(0.76990819,0.38079648){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00038}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{unipathway.pdf}}%
+    \put(0.78198509,0.24993901){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER0003}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{unipathway.pdf}}%
+    \put(0.03385123,0.64251133){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00033}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{unipathway.pdf}}%
+    \put(0.03422527,0.77336884){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00032}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{unipathway.pdf}}%
+    \put(0.03340434,0.51165391){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{UER00034}}}%
+    \put(0.42202748,0.00881139){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{L\_lysine}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{unipathway.pdf}}%
+  \end{picture}%
+\endgroup%

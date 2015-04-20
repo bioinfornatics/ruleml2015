@@ -1,0 +1,32 @@
+@startuml
+interface Fact {
+ + getId()      : String
+ + getName()      : String
+ + getSource()    : String
+ + getDate()      : DateTime
+ + getPresence()  : FiveState
+}
+hide Fact fields
+interface  Knowledge extends Fact{
+ + getPartOf()       : Knowledge[]
+ + getNodeType()     : NodeType
+ + getConclusion()   : Conclusion
+}
+hide  Knowledge fields
+hide  Fact fields
+Knowledge "1..*" *-- "1" Knowledge
+interface Observation extends Fact {
+ +getKnowledgeName()    : String
+ +getEvidence()         : Evidence
+}
+hide  Observation fields
+hide  Fact fields
+interface  Prediction implements Observation{
+}
+hide  Prediction fields
+hide  Observation fields
+interface Assertion extends Observation{
+}
+hide Assertion fields
+hide Observation fields
+@enduml

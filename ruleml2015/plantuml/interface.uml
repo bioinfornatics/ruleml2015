@@ -1,0 +1,30 @@
+@startuml
+interface I {
+    + getName()                 : String
+    + setName( String n )       : void
+    + getDate()                 : Date
+    + setDate( Date d )         : void
+}
+hide  I fields
+
+class A implements I {
+    - name : String
+    - date : Date
+    + getName()                 : String
+    + setName( String n )       : void
+    + getDate()                 : Date
+    + setDate( Date d )         : void
+}
+
+class B implements I {
+     - name : String
+     - date : Date
+     - comment: String
+     + getName() : String
+     + setName( String n )      : void
+     + getDate()                : Date
+     + setDate( Date d )        : void
+     + getComment()             : String
+     + setComment( String c )   : void
+}
+@enduml

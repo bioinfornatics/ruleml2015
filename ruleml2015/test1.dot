@@ -1,0 +1,21 @@
+digraph test {
+  node[shape="box" style="filled, rounded" fontcolor=blue ]
+    test_bk0 [ id="Pathway X" label="Pathway X" shape="octagon" fillcolor="pink" ];
+    test_bk01 [ id="Block reaction 1" label="Block reaction 1" fillcolor="pink" ];
+    test_bk0 -> test_bk01
+    test_bk012 [ id="Reaction 1" label="Reaction 1" fillcolor="Powderblue" ];
+    test_bk01 -> test_bk012
+    test_bk02 [ id="Block reaction 2" label="Block reaction 2" fillcolor="pink" ];
+    test_bk0 -> test_bk02
+    test_bk011 [ id="Reaction 2" label="Reaction 2" fillcolor="pink" ];
+    test_bk01 -> test_bk011
+    test_bk013 [ id="Reaction 3" label="Reaction 3" fillcolor="Powderblue" ];
+    test_bk01 -> test_bk013
+    test_bk031 [ id="Reaction 4" label="Reaction 4" fillcolor="pink" ];
+    test_bk02 -> test_bk031
+    test_bk1 [ id="Pathway Y" label="Pathway Y" shape="octagon" fillcolor="Powderblue" ];
+    test_bk11 [ id="Block reaction 3" label="Block reaction 3" fillcolor="Powderblue" ];
+    test_bk1 -> test_bk11
+    test_bk11 -> test_bk013
+    
+}

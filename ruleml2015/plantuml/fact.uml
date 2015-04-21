@@ -14,7 +14,7 @@ interface  Knowledge extends Fact{
 }
 hide  Knowledge fields
 hide  Fact fields
-Knowledge "1..*" *-- "1" Knowledge
+Knowledge "0..*" *-- "1" Knowledge
 interface Observation extends Fact {
  +getKnowledgeName()    : String
  +getEvidence()         : Evidence

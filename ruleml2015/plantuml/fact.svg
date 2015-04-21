@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="4627.7861"
+   version="1.1"
+   viewBox="0 0 4394.4771 3702.2289"
+   width="5493.1641"
+   id="svg2"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="fact.svg">
+  <metadata
+     id="metadata322">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1060"
+     id="namedview320"
+     showgrid="false"
+     inkscape:zoom="0.087198339"
+     inkscape:cx="485.31538"
+     inkscape:cy="2151.4648"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 3843.75 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="12691.406 : 3843.75 : 1"
+       inkscape:persp3d-origin="6345.7031 : 2562.5 : 1"
+       id="perspective324" />
+  </defs>
+  <rect
+     id="rect30"
+     y="3320.1978"
+     x="7.0041752"
+     width="890.625"
+     style="fill:#fefece;stroke:#a80036;stroke-width:14.0625"
+     height="375" />
+  <ellipse
+     sodipodi:ry="103.125"
+     sodipodi:rx="103.125"
+     sodipodi:cy="5765.625"
+     sodipodi:cx="2798.4375"
+     id="ellipse32"
+     style="fill:#b4a7e5;stroke:#a80036;stroke-width:9.375"
+     ry="103.125"
+     rx="103.125"
+     cy="5765.625"
+     cx="2798.4375"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <path
+     id="path34"
+     d="m 110.27568,3526.4562 0,-15.3809 26.9531,0 0,-84.5214 -26.9531,0 0,-15.2344 76.9043,0 0,15.2344 -26.9531,0 0,84.5214 26.9531,0 0,15.3809 -76.9043,0 z" />
+  <text
+     style="font-size:112.5px;font-style:italic;fill:#000000;font-family:Liberation Mono"
+     id="text36"
+     y="3500.1353"
+     x="278.87918"
+     textLength="590.625"
+     lengthAdjust="spacingAndGlyphs"
+     font-style="italic"
+     font-size="112.5">Assertion</text>
+  <line
+     id="line38"
+     y2="3620.1978"
+     y1="3620.1978"
+     x2="888.25415"
+     x1="16.379175"
+     style="stroke:#a80036;stroke-width:14.0625" />
+  <rect
+     id="rect40"
+     y="1745.198"
+     x="194.50418"
+     width="1771.875"
+     style="fill:#fefece;stroke:#a80036;stroke-width:14.0625"
+     height="614.98718" />
+  <ellipse
+     sodipodi:ry="103.125"
+     sodipodi:rx="103.125"
+     sodipodi:cy="4190.625"
+     sodipodi:cx="3330.4688"
+     id="ellipse42"
+     style="fill:#b4a7e5;stroke:#a80036;stroke-width:9.375"
+     ry="103.125"
+     rx="103.125"
+     cy="4190.625"
+     cx="3330.4688"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <path
+     id="path44"
+     d="m 642.30687,1951.4563 0,-15.381 26.95321,0 0,-84.5213 -26.95321,0 0,-15.2344 76.90431,0 0,15.2344 -26.9531,0 0,84.5213 26.9531,0 0,15.381 -76.90431,0 z" />
+  <text
+     style="font-size:112.5px;font-style:italic;fill:#000000;font-family:Liberation Mono"
+     id="text46"
+     y="1925.1355"
+     x="871.8479"
+     textLength="721.875"
+     lengthAdjust="spacingAndGlyphs"
+     font-style="italic"
+     font-size="112.5">Observation</text>
+  <line
+     id="line48"
+     y2="2045.198"
+     y1="2045.198"
+     x2="1957.0042"
+     x1="203.87918"
+     style="stroke:#a80036;stroke-width:14.0625" />
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="4452.1841"
+     sodipodi:cx="2948.4375"
+     id="ellipse50"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="4452.1841"
+     cx="2948.4375"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text52"
+     y="2180.6868"
+     x="382.00418"
+     textLength="1528.125"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getKnowledgeName() : String</text>
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="4572.1777"
+     sodipodi:cx="2948.4375"
+     id="ellipse54"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="4572.1777"
+     cx="2948.4375"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text56"
+     y="2300.6804"
+     x="382.00418"
+     textLength="1425"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getEvidence() : Evidence</text>
+  <rect
+     id="rect58"
+     y="7.03125"
+     x="874.19165"
+     width="1481.25"
+     style="fill:#fefece;stroke:#a80036;stroke-width:14.0625"
+     height="974.96802" />
+  <ellipse
+     sodipodi:ry="103.125"
+     sodipodi:rx="103.125"
+     sodipodi:cy="1481.25"
+     sodipodi:cx="4094.5312"
+     id="ellipse60"
+     style="fill:#b4a7e5;stroke:#a80036;stroke-width:9.375"
+     ry="103.125"
+     rx="103.125"
+     cy="1481.25"
+     cx="4094.5312"
+     transform="translate(-2650.8084,-1324.2188)" />
+  <path
+     id="path62"
+     d="m 1406.3694,213.28125 0,-15.3809 26.9532,0 0,-84.5214 -26.9532,0 0,-15.2344 76.9043,0 0,15.2344 -26.9531,0 0,84.5214 26.9531,0 0,15.3809 -76.9043,0 z" />
+  <text
+     style="font-size:112.5px;font-style:italic;fill:#000000;font-family:Liberation Mono"
+     id="text64"
+     y="186.96899"
+     x="1635.9104"
+     textLength="262.5"
+     lengthAdjust="spacingAndGlyphs"
+     font-style="italic"
+     font-size="112.5">Fact</text>
+  <line
+     id="line66"
+     y2="307.03125"
+     y1="307.03125"
+     x2="2346.0667"
+     x1="883.56665"
+     style="stroke:#a80036;stroke-width:14.0625" />
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="1742.8093"
+     sodipodi:cx="3628.125"
+     id="ellipse68"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="1742.8093"
+     cx="3628.125"
+     transform="translate(-2650.8084,-1324.2188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text70"
+     y="442.52014"
+     x="1061.6917"
+     textLength="853.125"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getId() : String</text>
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="1862.8029"
+     sodipodi:cx="3628.125"
+     id="ellipse72"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="1862.8029"
+     cx="3628.125"
+     transform="translate(-2650.8084,-1324.2188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text74"
+     y="562.51379"
+     x="1061.6917"
+     textLength="1040.625"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getName() : String</text>
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="1982.7965"
+     sodipodi:cx="3628.125"
+     id="ellipse76"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="1982.7965"
+     cx="3628.125"
+     transform="translate(-2650.8084,-1324.2188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text78"
+     y="682.50732"
+     x="1061.6917"
+     textLength="1050"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getSource() : String</text>
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="2102.79"
+     sodipodi:cx="3628.125"
+     id="ellipse80"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="2102.79"
+     cx="3628.125"
+     transform="translate(-2650.8084,-1324.2188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text82"
+     y="802.50098"
+     x="1061.6917"
+     textLength="1153.125"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getDate() : DateTime</text>
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="2222.7837"
+     sodipodi:cx="3628.125"
+     id="ellipse84"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="2222.7837"
+     cx="3628.125"
+     transform="translate(-2650.8084,-1324.2188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text86"
+     y="922.49463"
+     x="1061.6917"
+     textLength="1237.5"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getPresence() : FiveState</text>
+  <rect
+     id="rect176"
+     y="1688.948"
+     x="2299.1917"
+     width="1762.5"
+     style="fill:#fefece;stroke:#a80036;stroke-width:14.0625"
+     height="734.98077" />
+  <ellipse
+     sodipodi:ry="103.125"
+     sodipodi:rx="103.125"
+     sodipodi:cy="4134.375"
+     sodipodi:cx="5496.0938"
+     id="ellipse178"
+     style="fill:#b4a7e5;stroke:#a80036;stroke-width:9.375"
+     ry="103.125"
+     rx="103.125"
+     cy="4134.375"
+     cx="5496.0938"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <path
+     id="path180"
+     d="m 2807.9319,1895.2063 0,-15.381 26.9532,0 0,-84.5214 -26.9532,0 0,-15.2343 76.9043,0 0,15.2343 -26.9531,0 0,84.5214 26.9531,0 0,15.381 -76.9043,0 z" />
+  <text
+     style="font-size:112.5px;font-style:italic;fill:#000000;font-family:Liberation Mono"
+     id="text182"
+     y="1868.8855"
+     x="3037.4729"
+     textLength="590.625"
+     lengthAdjust="spacingAndGlyphs"
+     font-style="italic"
+     font-size="112.5">Knowledge</text>
+  <line
+     id="line184"
+     y2="1988.948"
+     y1="1988.948"
+     x2="4052.3167"
+     x1="2308.5667"
+     style="stroke:#a80036;stroke-width:14.0625" />
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="4395.9341"
+     sodipodi:cx="5053.125"
+     id="ellipse186"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="4395.9341"
+     cx="5053.125"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text188"
+     y="2124.4368"
+     x="2486.6917"
+     textLength="1425"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getPartOf() : Knowledge[]</text>
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="4515.9277"
+     sodipodi:cx="5053.125"
+     id="ellipse190"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="4515.9277"
+     cx="5053.125"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text192"
+     y="2244.4304"
+     x="2486.6917"
+     textLength="1443.75"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getNodeType() : NodeType</text>
+  <ellipse
+     sodipodi:ry="28.125"
+     sodipodi:rx="28.125"
+     sodipodi:cy="4635.9214"
+     sodipodi:cx="5053.125"
+     id="ellipse194"
+     style="fill:#84be84;stroke:#038048;stroke-width:9.375"
+     ry="28.125"
+     rx="28.125"
+     cy="4635.9214"
+     cx="5053.125"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <text
+     style="font-size:103.125px;fill:#000000;font-family:sans-serif"
+     id="text196"
+     y="2364.4241"
+     x="2486.6917"
+     textLength="1518.75"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="103.125">getConclusion() : Conclusion</text>
+  <rect
+     id="rect212"
+     y="3320.1978"
+     x="1230.4417"
+     width="956.25"
+     style="fill:#fefece;stroke:#a80036;stroke-width:14.0625"
+     height="375" />
+  <ellipse
+     sodipodi:ry="103.125"
+     sodipodi:rx="103.125"
+     sodipodi:cy="5765.625"
+     sodipodi:cx="4021.875"
+     id="ellipse214"
+     style="fill:#b4a7e5;stroke:#a80036;stroke-width:9.375"
+     ry="103.125"
+     rx="103.125"
+     cy="5765.625"
+     cx="4021.875"
+     transform="translate(-2650.8084,-2295.4188)" />
+  <path
+     id="path216"
+     d="m 1333.7131,3526.4562 0,-15.3809 26.9532,0 0,-84.5214 -26.9532,0 0,-15.2344 76.9044,0 0,15.2344 -26.9532,0 0,84.5214 26.9532,0 0,15.3809 -76.9044,0 z" />
+  <text
+     style="font-size:112.5px;font-style:italic;fill:#000000;font-family:Liberation Mono"
+     id="text218"
+     y="3500.1353"
+     x="1502.3167"
+     textLength="656.25"
+     lengthAdjust="spacingAndGlyphs"
+     font-style="italic"
+     font-size="112.5">Prediction</text>
+  <line
+     id="line220"
+     y2="3620.1978"
+     y1="3620.1978"
+     x2="2177.3167"
+     x1="1239.8167"
+     style="stroke:#a80036;stroke-width:14.0625" />
+  <path
+     id="path292"
+     style="fill:none;stroke:#a80036;stroke-width:9.375"
+     d="M 872.09167,2539.7281 C 754.85728,2807.4594 615.35728,3126.0106 530.36358,3320.1087" />
+  <polygon
+     id="polygon294"
+     style="fill:none;stroke:#a80036;stroke-width:9.375"
+     points="3584.475,4858.1438 3464.25,4805.4938 3464.25,4805.4938 3599.5781,4660.0688 "
+     transform="translate(-2650.8084,-2295.4188)" />
+  <path
+     id="path296"
+     style="fill:none;stroke:#a80036;stroke-width:5.75729513"
+     d="m 1472.1952,1161.2881 c -106.7256,188.5372 -248.0623,438.2299 -329.1186,581.4221" />
+  <polygon
+     id="polygon298"
+     style="fill:none;stroke:#a80036;stroke-width:9.375"
+     points="4060.6594,2476.3688 4163.8594,2306.625 4189.0406,2503.6688 4060.6594,2476.3688 "
+     transform="translate(-2650.8084,-1324.2188)" />
+  <path
+     id="path300"
+     style="fill:none;stroke:#a80036;stroke-width:5.27983665"
+     d="m 2017.2947,1139.9442 c 283.6199,175.0335 662.138,408.6326 894.9553,552.3163" />
+  <polygon
+     id="polygon302"
+     style="fill:none;stroke:#a80036;stroke-width:9.375"
+     points="4607.2594,2500.4625 4563.7969,2306.625 4718.6531,2431.05 4607.2594,2500.4625 "
+     transform="translate(-2650.8084,-1324.2188)" />
+  <path
+     id="path304"
+     style="fill:none;stroke:#a80036;stroke-width:9.375"
+     d="m 4183.2479,1819.4563 c 124.6594,41.6999 206.5687,120.0749 206.5687,235.125 0,148.7438 -136.9312,236.1936 -326.1374,262.3405" />
+  <polygon
+     id="polygon306"
+     style="fill:#a80036;stroke:#a80036;stroke-width:9.375"
+     points="6761.0165,4136.7039 6824.1841,4112.6174 6777.6551,4063.5728 6714.4875,4087.6594 6714.4875,4087.6594 "
+     transform="translate(-2650.8084,-2295.4188)" />
+  <text
+     style="font-size:121.875px;fill:#000000;font-family:sans-serif"
+     id="text308"
+     y="1742.8899"
+     x="4136.1152"
+     textLength="206.25"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="121.875">0..*</text>
+  <text
+     style="font-size:121.875px;fill:#000000;font-family:sans-serif"
+     id="text310"
+     y="2307.2947"
+     x="4137.0508"
+     textLength="75"
+     lengthAdjust="spacingAndGlyphs"
+     font-size="121.875">1</text>
+  <path
+     id="path312"
+     style="fill:none;stroke:#a80036;stroke-width:9.375"
+     d="m 1288.7917,2539.7281 c 117.2343,267.7313 256.7343,586.2825 341.728,780.3806" />
+  <polygon
+     id="polygon314"
+     style="fill:none;stroke:#a80036;stroke-width:9.375"
+     points="3998.25,4805.4938 3878.025,4858.1438 3878.025,4858.1438 3862.9219,4660.0688 "
+     transform="translate(-2650.8084,-2295.4188)" />
+</svg>

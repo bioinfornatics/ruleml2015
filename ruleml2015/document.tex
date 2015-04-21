@@ -10,6 +10,7 @@
 \usepackage{slashbox}
 \usepackage{graphicx,xcolor}
 \usepackage[draft]{changes}
+\usepackage{listings}
 \usepackage[linktocpage, colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue, %
              pdfkeywords={
                 genomic annotation,
@@ -18,12 +19,15 @@
                 oriented object logic,
                 four valued logic}]{hyperref}
 \usepackage{filecontents}
+\usepackage{float}
 \usepackage{caption}
+\usepackage{subcaption}
 \usepackage{tikz}
-
 \bibliographystyle{splncs03}
 \pagestyle{headings}
 
+
+\newcommand{\subsum}{\mathop{\raisebox{1ex}{$\cdot$}\!\!\!\!\leq}} 
 
 \title{Reactive Graph Reasoning for Genomic Annotation}
 
@@ -143,10 +147,10 @@ Université d’Evry Val d’Essonne, Evry, France}
 
 \begin{abstract}
 \replaced{Today's functional genomic knowledge is built from an incredible amount of genomes}{The emergence of the next generation sequencing generates an incredible amount of genomes}, whereas curation efforts to annotate them tend to decrease despite some community initiatives \cite{mazumder2010community}. Providing human expert annotation as gold standard for all of these genomes became challenging.\\
-To ease this manual process, we develop a Genomic Rule Oriented Object Logic System named GROOLS. \added{Reconstructing metabolite networks with automatic tasks firstly to improves the expert genomic annotation process. Following this bio-annotator has a global view of predicted functions. And could to use in more the network context to annotate missing proteins.}\\
+To ease this manual process, we develop a Genomic Rule Oriented Object Logic System named GROOLS. \added{Reconstructing metabolite networks from both automatic tasks expert manual curating. Following this bio-annotator has a global view of predicted functions. And could to use the network context to annotate missing proteins.}\\
 The combined use of modern paradigm as oriented object programming with the logic fields provide an interesting space of research. Complex biological information are pulled from various resources and represented as a structured object. These objects are bivalent, for a computer specialist, is an instance of a defined class, while for a logician is a theory.\\
-Business Rule is used to coerce, control and making business decision. It separates clearly
-the business logic from the application. Theses rules are applied to facts throw a Business To reason over these theories is need to use a Rule Management System (BRMS). It evaluates facts against a set of rules in a reproducible and efficient way.
+Business rule is used to coerce, control and making business decision. It separates clearly
+the business logic from the application. Theses rules are applied to facts throw a Business Rule Management System (BRMS) to reason over these theories. It evaluates facts against a set of rules in a reproducible and efficient way.
 This paper show a standardized way to analyze and annotate genomes using a four valued logic and a hierarchical knowledge representation.
 \keywords{genomic annotation, network reconstruction, business rules, oriented object logic, four valued logic, hierarchical knowledge representation}
 \end{abstract}
@@ -154,32 +158,31 @@ This paper show a standardized way to analyze and annotate genomes using a four 
 \section{General description}
 GROOLS is an applied research project mixing  biology, informatics and logic. It aim to standardize
 the use of biological results to annotate a genome. Highlighting bio-annotator on expected gene or not and discovery new knowledge. During analysis of a newly sequenced genome, the bio-annotator is faced to the difficult task of checking the annotation consistency. In such cases the bio-annotator should to check the proteome against the biological knowledge about the organisms under study. However this task is too huge, bio-annotator usually check sequence similarity to an already annotated protein to infer the gene annotation. The early stages are to understand the bio-annotator reasoning and the identification of a generic model establishing a vocabularies.\\
-A bio-annotator use at least three kinds of facts. The first one is a prediction fact, found by bioinformatics computing or bio-annotator analysis. The second one is an asserted fact, an empirical evidence on organisms. The thirds is a trusted knowledge, a knowledge known to occur on one ore more organisms. A bio-annotator knowning for the studied organisms that is a tryptophan autotroph. This human expert will expect to found tryptophan bio-synthesis pathway. The corresponding knowledge will be marked as required. Reciprocally, if is known to not grow on tryptophan free media, the tryptophan bio-synthesis pathway is avoided. \\
-Such reasoning system need a generic representation of the biological knowledge to be used on genomic annotation. And, on the other hand a BRMS able to reason over complex and structured data. \\
+A bio-annotator use at least three kinds of facts. The first one is a prediction fact, found by bioinformatics computing or bio-annotator analysis. The second one is an asserted fact, an empirical evidence on organisms. The thirds is a trusted knowledge, a knowledge known to occur on one ore more organisms. A bio-annotator knowning the studied organisms is a tryptophan autotroph,  will expect to found tryptophan bio-synthesis pathway. The corresponding knowledge will be marked as required. Reciprocally, if is known to not grow on tryptophan free media, the tryptophan bio-synthesis pathway is avoided. \\
+Such reasoning system need a generic representation of the biological knowledge to be used on automatic genomic annotation. On the other hand a BRMS need to be able to reason over complex and structured data. \\
 In order to have this kind of reasoning we need to select resources, where facts come from. An asserted fact can come from biolog data \cite{biolog}, a trusted knowledge from unipathway \cite{morgat2011unipathway} and prediction from bioinformatics results or bio-annotator expertise from the Prokaryotic Genome DataBase (PkGDB) \cite{vallenet2012microscope} \\
-Trusted knowledge are linked together to form an graph. Prediction will influence the leaf of graph while assertion influence the roots of graph. The predictions influences are propagate from the leaf to the roots. Assertions and predictions facts are four valued. An assertion can take one of these values:  present, absent, both and unknown and a prediction: required, avoided, both, unknown. These state are inferred to knowledge giving ability to get a precise conclusion. This aims to help bio-annotator to focus on missing gene annotation using a reconstruction of the metabolic network from a sequenced genome \cite{francke2005reconstructing}.\\
-This kind of logic is described by Belnap \cite{belnap1977useful} as a four valued logic. These theories are connected via an interface vocabularies. A set of rules is applied on a huge amount of biological knowledge to notify the completeness and the consistencies for each genome. To achieve this we have applied the Object-Oriented First Order Logic (OOFOL) \cite{amir1999object} and extended to a four valued logic. The four valued logic give a finer analysis than classic First Order Logic. In GROOLS, knowledge objects are theories which takes the form of a directed acyclic graph. Others are simple typed fact describing what exists that means all computed prediction or human prediction. Or the others kind of fact what should to exists, an assertion to a theory.
+Trusted knowledge are linked together to form a graph. Prediction will influence the leaf of graph while assertion influence the roots of graph. The predictions influences are propagate from the leaf to the roots. Assertions and predictions facts are four valued. An assertion can take one of these values:  present, absent, both and unknown and a prediction: required, avoided, both, unknown. These state are inferred to knowledge giving ability to get a precise conclusion. This aims to help bio-annotator to focus on missing gene annotation using a reconstruction of the metabolic network from a sequenced genome \cite{francke2005reconstructing}.\\
+This kind of logic is described by Belnap \cite{belnap1977useful} as a four valued logic. These theories are connected via an interface vocabularies. A set of rules is applied on a huge amount of biological knowledge to notify the completeness and the consistencies for each genome. To achieve this we have applied the Object-Oriented First Order Logic (OOFOL) \cite{amir1999object} and extended to a four valued logic. The four valued logic give a finer analysis than classic First Order Logic. Indeed biological point of view a false knowledge do not means the same thing than a not observed knowledge. In GROOLS, knowledge objects are theories which takes the form of a directed acyclic graph. Others are simple typed fact describing what is predicted or observed by experimentation.
 
 \section{Genomic annotation}
 
-Genomic annotation task is one of most important, at ends organisms molecular physiology are decoded increasing our understanding of that particular organism. This field aims to understand what an organisms is able to do from his DNA sequence. The unit in genome annotation process is the product of gene (protein) and understanding its function. Some of these proteins are defined as enzymes, that means they are able to catalyze at least one chemical reaction. The enzymatic product of theses chemicals reactions will be used by an enzyme and so on. This enzyme chained process is described by a metabolic pathway (Figure~\ref{fig:pathway}). An enzyme can to be depicted in more than one metabolism pathway to form a metabolic network.
+Genomic annotation is one of most important task, at ends organisms molecular physiology are decoded increasing our understanding of that particular organism. This field aims to understand what an organisms is able to do from his DNA sequence. The unit in genome annotation process is the product of gene (protein). Understanding its function can lead to new discoveries. Some of these proteins are defined as enzymes, that means they are able to catalyze at least one chemical reaction. The enzymatic product of theses chemicals reactions will be used by an enzyme, give some new products, and so on. This enzyme chained process is described by a metabolic pathway (Figure~\ref{fig:pathway}). An enzyme can to be depicted in more than one metabolic pathway to form a metabolic network.
 
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \includegraphics[scale=0.6]{img/unipathway.pdf}
-    \caption{A metabolic pathway with two path to go from 2-oxoglutarate metabolite to L-Lysine . UER means unipathway enzymatic reaction which are involved by an enzymatic protein. Box with a same color are in a same block of reaction. This pathway has three reactions block: red green and blue. An organism could have a path with red and green blocks and/or red and blue block. Source: \href{http://www.grenoble.prabi.fr}{unipathway} .}
+    \includegraphics[width=0.5\textwidth]{img/unipathway.pdf}
+    \caption{A metabolic pathway with two path to go from 2-oxoglutarate metabolite to L-Lysine . UER means unipathway enzymatic reaction which are involved by an enzymatic protein. Box with a same color are in a same block of reaction. This pathway has three reactions block: red green and blue. An organism could have a path with red and green blocks and/or red and blue block. Source: \href{http://www.grenoble.prabi.fr}{unipathway}.}
     \label{fig:pathway}
 \end{figure}
 
 A bio-annotator usually defined a coding region, search an homologous sequence and take a look to the genomic context to infer an annotation. In our opinion this task is more productive to do after an automatic genomic annotation. This allow the reconstruction of metabolic process (see \cite{francke2005reconstructing}), filled by automatics tasks, and help the bio-annotator to focus on missing gene. This automatics gene annotation can to be displayed with some others information
-enabling a better understanding on the organism abilities (depicted in Figure~\ref{fig:metabolicNetworkReconstruction}). A first approach lead to conclusion the Pathway X is not present. But if is known that studied organism has the pathway X with some experimental information. Bio-annotator point of view the pathway X is certainly present as a specific reaction occur in the pathway X. Indeed biological knowledge has some hole. Some enzymatic reaction are known to occur into an  organisms but this protein are bound to any gene, usually described ad orphan enzyme \cite{sorokina2014profiling}. This alternative reasoning are optimistic and fit better with our empirical knowledge.
+enabling a better understanding on the organism abilities (depicted in Figure~\ref{fig:metabolicNetworkReconstruction}). A first approach lead to conclusion the Pathway X is not present. But if is known that studied organism has the pathway X with some experimental information. Bio-annotator point of view the pathway X is certainly present as a specific reaction occur in the pathway X. Indeed biological knowledge has some hole. Some enzymatic reaction are known to occur into an  organisms but these proteins are bound to any gene, usually described as orphan enzyme \cite{sorokina2014profiling}. This alternative reasoning is optimistic and fit better with our knowledge with hole.
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \def\svgwidth{\columnwidth}
-    \input{pathway2.pdf_tex}
-    \caption{Guided metabolic network reconstruction. Octagon shape is used for ``or node '' and a rounded box for ``and node ''. A red backgrounds means a knowledge is not present as opposite a cyan color means a present knowledge. }
+    \includegraphics{img/pathway.pdf}
+    \caption{Guided metabolic network reconstruction. A red backgrounds means a knowledge is not present as opposite a light blue color means a present knowledge. }
     \label{fig:metabolicNetworkReconstruction}
 \end{figure}
 
@@ -187,23 +190,44 @@ This kind of reasoning should to be done over more than four thousand genes by o
 
 \section{Benefits of applying an oriented-object expert system}
 Biological facts are stored into many bio-data warehouse, which are cross-referenced to reason over. For a computer scientist such information fit an oriented object approach. An oriented object programming ease in handling the data. Each kind of data corresponds to a class. With the use of an object relational mapping, objects are automatically pull to a typed information from a data warehouse. An object is an instance of the corresponding class. A computer scientist will apply a formula, an algorithm, a reasoning, depending of the current information type used. \\
-We do not know in advance which type object the end used will put. To communicate between these different type of objects, the vocabulary is described by the use of interface. Interface provides a low coupling to have a well-structured computer system. Interface impose communication protocol, a partial set of attributes from classes are shared through any type of object. In other hand interface avoid multi-inheritance issues and provide a standardized vocabulary through any type of object. The use of inheritance Interface define common accessor and mutator following the lowerCamelCase convention syntax (i.e getX, setX \dots), attribute name are extratable in a standard way from various objects. We describe three generics type of facts: Knowledge, Prediction and Assertion (Figure~\ref{fig:fact}) .
+We do not know in advance which type object the end used will put. To communicate between these different type of objects, the vocabulary is described by the use of interface. Interface provides a low coupling to have a well-structured computer system. Interface impose communication protocol, a partial set of attributes from classes are shared through any type of object. In other hand interface avoid multi-inheritance issues and provide a standardized vocabulary through any type of object. The use of inheritance Interface define common accessor and mutator following the lowerCamelCase convention syntax (i.e getX, setX \dots), attribute name are extractable in a standard way from various objects. We describe three generics type of facts: Knowledge, Prediction and Assertion (Figure~\ref{fig:fact}) .
 
-\begin{figure}
+\begin{figure}[H]
     \centering
-    \resizebox{0.8\textwidth}{!}{%
-        \input{img/fact.latex}
-    }
-    \caption{Generic Fact model. Knowledge are used for a trusted information, Prediction for bioinformatics and bio-annotator observation and Assertion for an empiric observation. Predictions and Assertions results are facing to Knowledges.}
+    \begin{subfigure}{0.6\textwidth}
+    \includegraphics[width=\textwidth]{plantuml/fact.pdf}
+    \caption{Generic Fact model.}
     \label{fig:fact}
+    \end{subfigure}
+    \hfill{}
+    \begin{subfigure}{0.3\textwidth}
+        \begin{lstlisting}[mathescape, basicstyle=\fontfamily{lmvtt}\selectfont]
+FACT $\subsum$ TOP
+id $\subsum$ toprole
+name $\subsum$ toprole
+nodeType $\subsum$ role
+conclusion $\subsum$ role
+evidence $\subsum$ role
+KNOWLEDGE $\doteq$ ( and FACT
+    ( atleast 0 partOf )
+    ( some nodeType)
+    ( some conclusion) )
+OBSERVATION $\doteq$ ( and FACT
+    ( some evidence ))
+PREDICTION $\doteq$ ( and OBSERVATION )
+ASSERTION $\doteq$ ( and OBSERVATION )
+        \end{lstlisting}
+    \caption{Logic formalism}
+    \end{subfigure}
+    \caption{Knowledge are used as a trusted information. Prediction from bioinformatics and bio-annotator experiment. Assertion as an empiric observation over our knowledge. Predictions and Assertions results are facing to Knowledge.}
 \end{figure}
 
 JBoss DROOLS is an open rule-engine written in java \cite{proctor2008drools}. Natively an oriented-object language it use a PHREAK algorithm \cite{phreak} to reasoning over structured data. It does a nice bridge between our java application and the logic.
 
 \subsection{Reasoning over structured data}
-Logic point of view a class is a structure. An instance of a class ( an object ) is a theory. An object can to contains others objects, that means a theory is a graph of smaller theories. Each theory are defined by a coherent set of values. A class C is a tuple \( \langle \mathcal{L}_{C}, \mathcal{A}_{C} , \mathcal{I}_{C} \rangle \). Where  \(\mathcal{L} \) is the vocabulary (class methods) ,  \(\mathcal{A} \)  a set of axioms (attributes) and \(\mathcal{I} \) a set of vocabulary to implement (\( \mathcal{I}_{C} \subset\mathcal{L}_{C} \)). The truth of a sub-theory can to be inferred to their upper theory following a Belnap logic (see Table~\ref{table:belnap}). In a such case a ``AND'' node have the following priority evaluation: FALSE > BOTH > NONE > TRUE. As example if one of sub-theory linked to a ``AND'' node is false the upper theory is false. Priority evaluation for ``OR'' node is: TRUE > NONE > BOTH > FALSE.
+Logic point of view a class is a structure. An instance of a class ( an object ) is a theory. An object can to contains others objects, that means a theory is a graph of smaller theories. Each theory are defined by a coherent set of values. A class C is a tuple \( \langle \mathcal{L}_{C}, \mathcal{A}_{C} , \mathcal{I}_{C} \rangle \). Where  \(\mathcal{L} \) is the vocabulary (class methods) ,  \(\mathcal{A} \)  a set of axioms (attributes) and \(\mathcal{I} \) a set of vocabulary to implement (\( \mathcal{I}_{C} \subset\mathcal{L}_{C} \)). The truth of a sub-theory can to be inferred to their upper theory following a Belnap logic (see Table~\ref{table:belnap}). In a such case a ``AND'' node have the following priority evaluation: FALSE > BOTH > NONE > TRUE. As example if one of sub-theory linked to a ``AND'' node is false the upper theory is false. To the same line priority evaluation for ``OR'' node is: TRUE > NONE > BOTH > FALSE.
     
-\begin{table}
+\begin{table}[H]
     \caption{A four valued logic truth tables. T: true, F: false, B: both, N: none.\label{table:belnap}}
     \begin{minipage}{0.2\textwidth}
         \centering
@@ -238,15 +262,14 @@ Logic point of view a class is a structure. An instance of a class ( an object )
 \end{table}
 
 
-Point of view of a bio-annotator they are some cases not well cover by this logic. Indeed if a required pathway X has at least one reaction specific of the reaction block (not shared to another reactions blocks) then corresponding reaction block is present which infer the presence to the pathway X. That means we do not know yet what happen in this cases but the studied organisms has the required ability. By modifying ``AND'' node priority evaluation to TRUE > FALSE > BOTH > NONE in these cases we can to have an optimistic Belnap logic.
+Bio-annotator Point of view, they are some cases not well cover by this logic. Indeed if a required pathway X has at least one specific reaction (not shared to another reactions blocks) from a reaction block that can be used in used by the pathway X. Then corresponding reaction block is set to present which infer the presence to the pathway X. That means we do not know yet what happen in this cases but the studied organisms has the required ability. By modifying ``AND'' node priority evaluation to TRUE > FALSE > BOTH > NONE in this case we can to have an optimistic Belnap logic.
 
 \subsection{Hierarchical knowledge representation}
-Handling fact form a directed acyclic graph. A pathway contains one or more pathway variant. A pathway variant contains one or more reaction block. And reaction block contains one or more enzymatic reaction, these enzymatic reaction can to appear in one or more reaction block (as the reaction 3 in Figure~\ref{fig:metabolicNetworkReconstruction}). These knowledge need to be studied to know if is present or absent in the given organism.
-Prediction fact will infer in a bottom-up way while assertion fact will do it in a top-down way. Once all facts are spreads over the DAG of knowledge a refined conclusion is put on each knowledge. This conclusion will to oppose an assertion fact with a prediction fact comparing a four logic value to an another following the conclusion table~\ref{table:conclusion}.
+Handling fact form a directed acyclic graph. A pathway contains one or more pathway variant. A pathway variant contains one or more reaction block. And reaction block contains one or more enzymatic reaction, these enzymatic reactions can to appear in one or more reaction block (as the reaction 3 in Figure~\ref{fig:metabolicNetworkReconstruction}). These knowledge need to be studied to know if they are present or absent in the given organism. Prediction fact will infer in a bottom-up way while assertion fact will do it in a top-down way. Once all facts are spreads over the DAG of knowledge a refined conclusion is put on each knowledge. This conclusion will to oppose an assertion fact with a prediction fact comparing a four valued logic to an another following the conclusion table~\ref{table:conclusion}.
 
 
-\begin{table}
-    \caption{Conclusion table.}
+\begin{table}[H]
+    \caption{Conclusion truth table.}
     \begin{tabular}{|l||*{4}{l|}}\hline
         \backslashbox{\textbf{Assertion}}{\textbf{Prediction}} & \makebox[6em]{\textbf{TRUE}} & \makebox[6em]{\textbf{FALSE}} & \makebox[6em]{\textbf{BOTH}} &\makebox[6em]{\textbf{UNKNOWN}} \\ \hline \hline
         \textbf{REQUIRED}                                      & Confirmed P.                 & Unexpected A.                 & Contradictory A.             & Missing                        \\ \hline
@@ -267,6 +290,7 @@ Prediction fact will infer in a bottom-up way while assertion fact will do it in
 
 \section{Conclusion and future work}
 
+Our genomic annotation reasonner provides an efficient and standardized way to reconstructing metabolic network. Billions known proteins infer their function to corresponding gene on each organisms. Bio-Annotator can focus their expertize on a smaller set of genes. Inconsistencies are detected and raised to the bio-annotator automatically to stop spreading erroneous gene annotation. Using metabolic network reconstruction data are visualizable in a biological sense with a refined conclusion on each knowledge. We will focus our work to filling more accurate and relevant genome annotation to workaround knowledge hole.
 
 \bibliography{\jobname}
 

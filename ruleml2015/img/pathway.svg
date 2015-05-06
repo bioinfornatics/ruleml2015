@@ -12,13 +12,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="257.10468"
-   height="161.80211"
-   viewBox="0 0 205.50512 129.44169"
+   width="280.41159"
+   height="161.80206"
+   viewBox="0 0 224.13446 129.44165"
    id="svg2"
    version="1.1"
-   inkscape:version="0.47 r22583"
-   sodipodi:docname="pathway.svg">
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="pathway.svg"
+   inkscape:export-filename="C:\Users\jmercier\Documents\ruleml\pathway.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600">
   <metadata
      id="metadata132">
     <rdf:RDF>
@@ -27,87 +30,200 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs130">
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4882"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4758"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5355"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5357"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutS"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutS"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4885"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5223"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path5225" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5079"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutL">
+      <path
+         transform="scale(0.8)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path5081" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4764"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4740"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="0 : 117.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_y="0 : 999.99997 : 0"
        inkscape:vp_z="475 : 117.5 : 1"
-       inkscape:persp3d-origin="237.5 : 78.333333 : 1"
+       inkscape:persp3d-origin="237.5 : 78.333331 : 1"
        id="perspective134" />
     <inkscape:perspective
        id="perspective2952"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective2977"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective2977-7"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective3013"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective2989"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective3804"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective3841"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective3869"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective3900"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective3931"
-       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
-       inkscape:vp_z="1 : 0.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333332 : 1"
+       inkscape:vp_z="1 : 0.49999999 : 1"
+       inkscape:vp_y="0 : 999.99997 : 0"
+       inkscape:vp_x="0 : 0.49999999 : 1"
        sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
@@ -120,451 +236,435 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1060"
+     inkscape:window-height="1178"
      id="namedview128"
      showgrid="false"
-     inkscape:zoom="1.4202315"
-     inkscape:cx="85.938945"
-     inkscape:cy="27.907545"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="105.67442"
+     inkscape:cy="62.166976"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
-  <g
-     class="node"
-     id="Pathway X"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)"
-     style="stroke:none">
-    <title
-       id="title10">test_bk0</title>
-    <path
-       style="fill:#ffc0cb;stroke:none"
-       id="path12"
-       d="m 176.838,-159.515 c 0,0 0,-4.97 0,-4.97 0,-2.486 -2.359,-5.752 -4.718,-6.534 0,0 -22.394,-7.418 -22.394,-7.418 -2.359,-0.781 -7.204,-1.563 -9.689,-1.563 0,0 -35.074,0 -35.074,0 -2.485,0 -7.3299,0.782 -9.6891,1.563 0,0 -22.3939,7.418 -22.3939,7.418 -2.3592,0.782 -4.7184,4.048 -4.7184,6.534 0,0 0,4.97 0,4.97 0,2.486 2.3592,5.752 4.7184,6.534 0,0 22.3939,7.418 22.3939,7.418 2.3592,0.781 7.2041,1.563 9.6891,1.563 0,0 35.074,0 35.074,0 2.485,0 7.33,-0.782 9.689,-1.563 0,0 22.394,-7.418 22.394,-7.418 2.359,-0.782 4.718,-4.048 4.718,-6.534" />
-    <text
-       style="font-size:14px;text-anchor:middle;fill:#0000ff;stroke:none;font-family:'Times,serif'"
-       id="text14"
-       font-size="14.00"
-       y="-158.3"
-       x="122.5">
-      <tspan
-         style="font-size:14.39999962px"
-         id="tspan3966">Variant X1</tspan>
-    </text>
-  </g>
-  <g
-     class="node"
-     id="Block reaction 1"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title17">test_bk01</title>
-    <path
-       style="fill:#ffc0cb;stroke:none"
-       id="path19"
-       d="m 234,-108 c 0,0 -83,0 -83,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 83,0 83,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12" />
-    <text
-       style="font-size:14px;text-anchor:middle;fill:#0000ff;font-family:'Times,serif'"
-       id="text21"
-       font-size="14.00"
-       y="-86.300003"
-       x="192.5">
-      <tspan
-         style="font-size:14.39999962px"
-         id="tspan3958">Block reaction2</tspan>
-    </text>
-  </g>
-  <g
-     class="edge"
-     id="edge1"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title24">test_bk0-&gt;test_bk01</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path26"
-       d="m 139.803,-143.697 c 8.562,8.562 19.041,19.041 28.393,28.393" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon28"
-       points="175.396,-108.104 165.85,-112.701 170.799,-117.65 170.799,-117.65 " />
-  </g>
-  <g
-     class="node"
-     id="Block reaction 2"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)"
-     style="stroke:none">
-    <title
-       id="title31">test_bk02</title>
-    <path
-       style="fill:#ffc0cb;stroke:none"
-       id="path33"
-       d="m 95,-108 c 0,0 -83,0 -83,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 83,0 83,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12" />
-    <text
-       style="font-size:14px;text-anchor:middle;fill:#0000ff;stroke:none;font-family:'Times,serif'"
-       id="text35"
-       font-size="14.00"
-       y="-86.300003"
-       x="53.5">
-      <tspan
-         style="font-size:14.39999962px"
-         id="tspan3956">Block reaction1</tspan>
-    </text>
-  </g>
-  <g
-     class="edge"
-     id="edge3"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title38">test_bk0-&gt;test_bk02</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path40"
-       d="m 105.444,-143.697 c -8.4395,8.562 -18.7686,19.041 -27.9867,28.393" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon42"
-       points="70.36,-108.104 74.8874,-117.683 79.8727,-112.769 79.8727,-112.769 " />
-  </g>
-  <g
-     class="node"
-     id="Reaction 1"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)"
-     style="stroke:none">
-    <title
-       id="title45">test_bk012</title>
-    <path
-       style="fill:#b0e0e6;stroke:none"
-       id="path47"
-       d="m 157,-36 c 0,0 -51,0 -51,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 51,0 51,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12" />
-    <text
-       style="font-size:14px;text-anchor:middle;fill:#0000ff;stroke:none;font-family:'Times,serif'"
-       id="text49"
-       font-size="14.00"
-       y="-14.3"
-       x="131.5">
-      <tspan
-         style="font-size:14.39999962px"
-         id="tspan3952">Reaction2</tspan>
-    </text>
-  </g>
-  <g
-     class="edge"
-     id="edge2"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title52">test_bk01-&gt;test_bk012</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path54"
-       d="m 177.421,-71.6966 c -7.313,8.392 -16.231,18.6261 -24.256,27.8353" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon56"
-       points="146.405,-36.1043 150.336,-45.9429 155.614,-41.344 155.614,-41.344 " />
-  </g>
-  <g
-     class="node"
-     id="Reaction 2"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)"
-     style="stroke:none">
-    <title
-       id="title59">test_bk011</title>
-    <path
-       style="fill:#ffc0cb;stroke:none"
-       id="path61"
-       d="m 250,-36 c 0,0 -51,0 -51,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 51,0 51,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12" />
-    <text
-       style="font-size:14px;text-anchor:middle;fill:#0000ff;stroke:none;font-family:'Times,serif'"
-       id="text63"
-       font-size="14.00"
-       y="-14.3"
-       x="224.5">
-      <tspan
-         style="font-size:14.39999962px"
-         id="tspan3948">Reaction 3</tspan>
-    </text>
-  </g>
-  <g
-     class="edge"
-     id="edge4"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title66">test_bk01-&gt;test_bk011</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path68"
-       d="m 200.41,-71.6966 c 3.643,7.9682 8.044,17.5971 12.084,26.4325" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon70"
-       points="216.681,-36.1043 209.34,-43.7439 215.706,-46.6543 215.706,-46.6543 " />
-  </g>
-  <g
-     class="node"
-     id="Reaction 3"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)"
-     style="stroke:none">
-    <title
-       id="title73">test_bk013</title>
-    <path
-       style="fill:#b0e0e6;stroke:none"
-       id="path75"
-       d="m 343,-36 c 0,0 -51,0 -51,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 51,0 51,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12" />
-    <text
-       style="font-size:14px;text-anchor:middle;fill:#0000ff;stroke:none;font-family:'Times,serif'"
-       id="text77"
-       font-size="14.00"
-       y="-14.3"
-       x="317.5">
-      <tspan
-         style="font-size:14.39999962px"
-         id="tspan3950">Reaction 4</tspan>
-    </text>
-  </g>
-  <g
-     class="edge"
-     id="edge5"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title80">test_bk01-&gt;test_bk013</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path82"
-       d="m 223.078,-71.8761 c 16.496,9.2373 37.046,20.7453 54.758,30.6645" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon84"
-       points="286.804,-36.1898 276.369,-38.0221 279.789,-44.1296 279.789,-44.1296 " />
-  </g>
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <path
-     d="m 31.821168,111.44168 c 0,0 -25.5,0 -25.5,0 -3,0 -6.00000004,3 -6.00000004,6 0,0 0,6 0,6 0,3 3.00000004,6 6.00000004,6 0,0 25.5,0 25.5,0 3,0 6,-3 6,-6 0,0 0,-6 0,-6 0,-3 -3,-6 -6,-6"
-     id="path89"
-     style="fill:#ffc0cb;stroke:none" />
+     inkscape:connector-curvature="0"
+     d="m 131.95898,15.68417 c 0,0 0,-2.485 0,-2.485 0,-1.243 -1.1795,-2.876 -2.359,-3.267 0,0 -11.197,-3.709 -11.197,-3.709 -1.1795,-0.3905 -3.602,-0.7815 -4.8445,-0.7815 0,0 -17.536999,0 -17.536999,0 -1.2425,0 -3.66495,0.391 -4.84455,0.7815 0,0 -11.19695,3.709 -11.19695,3.709 -1.1796,0.391 -2.3592,2.024 -2.3592,3.267 0,0 0,2.485 0,2.485 0,1.243 1.1796,2.876 2.3592,3.267 0,0 11.19695,3.709 11.19695,3.709 1.1796,0.3905 3.60205,0.7815 4.84455,0.7815 0,0 17.536999,0 17.536999,0 1.2425,0 3.665,-0.391 4.8445,-0.7815 0,0 11.197,-3.709 11.197,-3.709 1.1795,-0.391 2.359,-2.024 2.359,-3.267"
+     id="path12"
+     style="fill:#000000;stroke:none" />
+  <path
+     d="m 84.555143,38.607488 c 0,0 -46.54206,0 -46.54206,0 -3.36448,0 -6.72897,3 -6.72897,6 0,0 0,6 0,6 0,3 3.36449,6 6.72897,6 0,0 46.54206,0 46.54206,0 3.36449,0 6.72898,-3 6.72898,-6 0,0 0,-6 0,-6 0,-3 -3.36449,-6 -6.72898,-6"
+     id="path110-2"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     inkscape:connector-curvature="0" />
   <text
-     x="19.071171"
-     y="122.29168"
+     x="61.589977"
+     y="50.291668"
+     font-size="14.00"
+     id="text14"
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;stroke:none">
+    <tspan
+       id="tspan3966"
+       style="font-size:7.19999981px;fill:#ffffff">VariantX1</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 119.69636,75.44167 c 0,0 -46.542058,0 -46.542058,0 -3.36449,0 -6.728975,3 -6.728975,6 0,0 0,6 0,6 0,3 3.364485,6 6.728975,6 0,0 46.542058,0 46.542058,0 3.36449,0 6.72897,-3 6.72897,-6 0,0 0,-6 0,-6 0,-3 -3.36448,-6 -6.72897,-6"
+     id="path19"
+     style="fill:#000000;stroke:none" />
+  <text
+     x="96.43412"
+     y="86.291672"
+     font-size="14.00"
+     id="text21"
+     style="font-size:7px;text-anchor:middle;fill:#ffffff">
+    <tspan
+       id="tspan3958"
+       style="font-size:7.19999981px;fill:#ffffff">Reaction block2</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 70.241477,57.59317 c 4.281,4.281 9.5205,9.5205 14.1965,14.1965"
+     id="path26"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:0.50000000000000000;stroke-opacity:1" />
+  <polygon
+     points="165.85,-112.701 170.799,-117.65 170.799,-117.65 175.396,-108.104 "
+     id="polygon28"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-opacity:1"
+     transform="matrix(0.5,0,0,0.5,0.3399773,129.44167)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 53.396362,75.44167 c 0,0 -46.5420602,0 -46.5420602,0 -3.3644863,0 -6.7289726,3 -6.7289726,6 0,0 0,6 0,6 0,3 3.3644863,6 6.7289726,6 0,0 46.5420602,0 46.5420602,0 3.364487,0 6.728973,-3 6.728973,-6 0,0 0,-6 0,-6 0,-3 -3.364486,-6 -6.728973,-6"
+     id="path33"
+     style="fill:#000000;stroke:none" />
+  <text
+     x="30.105995"
+     y="86.291672"
+     font-size="14.00"
+     id="text35"
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;stroke:none">
+    <tspan
+       id="tspan3956"
+       style="font-size:7.19999981px;fill:#ffffff">Reaction block1</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 78.839977,111.44167 c 0,0 -25.5,0 -25.5,0 -3,0 -6,3 -6,6 0,0 0,6 0,6 0,3 3,6 6,6 0,0 25.5,0 25.5,0 3,0 6,-3 6,-6 0,0 0,-6 0,-6 0,-3 -3,-6 -6,-6"
+     id="path47"
+     style="fill:#000000;stroke:none;fill-opacity:1" />
+  <text
+     x="66.089981"
+     y="122.29167"
+     font-size="14.00"
+     id="text49"
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;stroke:none;">
+    <tspan
+       id="tspan3952"
+       style="font-size:7.19999981px;fill:#ffffff;">Reaction2</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 89.050477,93.59337 c -3.6565,4.196 -8.1155,9.31305 -12.128,13.91765"
+     id="path54"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:0.50000000000000000;stroke-opacity:1" />
+  <polygon
+     points="150.336,-45.9429 155.614,-41.344 155.614,-41.344 146.405,-36.1043 "
+     id="polygon56"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-opacity:1"
+     transform="matrix(0.5,0,0,0.5,0.3399773,129.44167)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 125.33998,111.44167 c 0,0 -25.500003,0 -25.500003,0 -3,0 -6,3 -6,6 0,0 0,6 0,6 0,3 3,6 6,6 0,0 25.500003,0 25.500003,0 3,0 6,-3 6,-6 0,0 0,-6 0,-6 0,-3 -3,-6 -6,-6"
+     id="path61"
+     style="fill:#000000;stroke:none" />
+  <text
+     x="112.58998"
+     y="122.29167"
+     font-size="14.00"
+     id="text63"
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;stroke:none">
+    <tspan
+       id="tspan3948"
+       style="font-size:7.19999981px;fill:#ffffff">Reaction3</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 95.74498,93.59337 c 1.8215,3.9841 4.022,8.79855 6.042,13.21625"
+     id="path68"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:0.50000000000000000;stroke-opacity:1" />
+  <polygon
+     points="216.681,-36.1043 209.34,-43.7439 215.706,-46.6543 215.706,-46.6543 "
+     id="polygon70"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-opacity:1"
+     transform="matrix(0.5,0,0,0.5,-4.4600233,129.44167)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 171.83998,111.44167 c 0,0 -25.5,0 -25.5,0 -3,0 -6,3 -6,6 0,0 0,6 0,6 0,3 3,6 6,6 0,0 25.5,0 25.5,0 3,0 6,-3 6,-6 0,0 0,-6 0,-6 0,-3 -3,-6 -6,-6"
+     id="path75"
+     style="fill:#000000;stroke:none;fill-opacity:1" />
+  <text
+     x="159.08998"
+     y="122.29167"
+     font-size="14.00"
+     id="text77"
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;stroke:none;">
+    <tspan
+       id="tspan3950"
+       style="font-size:7.19999981px;fill:#ffffff;">Reaction5</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 111.87898,93.50362 c 8.248,4.61865 18.523,10.37265 27.379,15.33225"
+     id="path82"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:0.50000000000000000;stroke-opacity:1" />
+  <polygon
+     points="276.369,-38.0221 279.789,-44.1296 279.789,-44.1296 286.804,-36.1898 "
+     id="polygon84"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-opacity:1"
+     transform="matrix(0.5,0,0,0.5,0.3399773,129.44167)" />
+  <path
+     d="m 32.339977,111.44167 c 0,0 -25.4999997,0 -25.4999997,0 -3,0 -6,3 -6,6 0,0 0,6 0,6 0,3 3,6 6,6 0,0 25.4999997,0 25.4999997,0 3,0 6,-3 6,-6 0,0 0,-6 0,-6 0,-3 -3,-6 -6,-6"
+     id="path89"
+     style="fill:#000000;stroke:none"
+     inkscape:connector-curvature="0" />
+  <text
+     x="19.589981"
+     y="122.29167"
      font-size="14.00"
      id="text91"
-     style="font-size:7px;text-anchor:middle;fill:#0000ff;font-family:'Times,serif'">
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;">
     <tspan
-       style="font-size:7.19999981px"
+       style="font-size:7.19999981px;fill:#ffffff;"
        id="tspan3954">Reaction1</tspan>
   </text>
-  <g
-     class="edge"
-     id="edge6"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title94">test_bk02-&gt;test_bk031</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path96"
-       d="m 49.7921,-71.6966 c -1.6529,7.7139 -3.6394,16.9841 -5.4823,25.5842" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon98"
-       points="42.1652,-36.1043 40.8383,-46.6157 47.6829,-45.149 47.6829,-45.149 " />
-  </g>
   <path
-     d="m 185.74017,49.684195 c 0,0 0,-2.485 0,-2.485 0,-1.243 -1.1795,-2.876 -2.359,-3.267 0,0 -11.197,-3.709 -11.197,-3.709 -1.1795,-0.3905 -3.602,-0.7815 -4.8445,-0.7815 0,0 -17.537,0 -17.537,0 -1.2425,0 -3.665,0.391 -4.8445,0.7815 0,0 -11.197,3.709 -11.197,3.709 -1.1795,0.391 -2.359,2.024 -2.359,3.267 0,0 0,2.485 0,2.485 0,1.24299 1.1795,2.87599 2.359,3.26699 0,0 11.197,3.709 11.197,3.709 1.1795,0.3905 3.602,0.7815 4.8445,0.7815 0,0 17.537,0 17.537,0 1.2425,0 3.665,-0.391 4.8445,-0.7815 0,0 11.197,-3.709 11.197,-3.709 1.1795,-0.391 2.359,-2.024 2.359,-3.26699"
-     id="path103"
-     style="fill:#ffc0cb;fill-opacity:1;stroke:none" />
+     d="m 182.02704,38.607511 c 0,0 -46.54206,0 -46.54206,0 -3.36448,0 -6.72897,3 -6.72897,6 0,0 0,6 0,6 0,3 3.36449,6 6.72897,6 0,0 46.54206,0 46.54206,0 3.36449,0 6.72898,-3 6.72898,-6 0,0 0,-6 0,-6 0,-3 -3.36449,-6 -6.72898,-6"
+     id="path110-3"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     inkscape:connector-curvature="0" />
   <text
-     x="158.57118"
-     y="50.291698"
+     x="159.09"
+     y="50.291691"
      font-size="14.00"
      id="text105"
-     style="font-size:7px;text-anchor:middle;fill:#0000ff;font-family:'Times,serif'">
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;">
     <tspan
-       style="font-size:7.19999981px"
+       style="font-size:7.19999981px;fill:#ffffff;"
        id="tspan3962">VariantX2</tspan>
   </text>
   <path
-     d="m 179.32117,75.441685 c 0,0 -41.5,0 -41.5,0 -3,0 -6,3 -6,6 0,0 0,6 0,6 0,3 3,6 6,6 0,0 41.5,0 41.5,0 3,0 6,-3 6,-6 0,0 0,-6 0,-6 0,-3 -3,-6 -6,-6"
+     d="m 184.82332,75.441679 c 0,0 -46.54206,0 -46.54206,0 -3.36448,0 -6.72897,3 -6.72897,6 0,0 0,6 0,6 0,3 3.36449,6 6.72897,6 0,0 46.54206,0 46.54206,0 3.36449,0 6.72898,-3 6.72898,-6 0,0 0,-6 0,-6 0,-3 -3.36449,-6 -6.72898,-6"
      id="path110"
-     style="fill:#ffc0cb;fill-opacity:1;stroke:none" />
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     inkscape:connector-curvature="0" />
   <text
-     x="158.57118"
-     y="86.291679"
+     x="161.48901"
+     y="86.291672"
      font-size="14.00"
      id="text112"
-     style="font-size:7px;text-anchor:middle;fill:#0000ff;font-family:'Times,serif'">
+     style="font-size:7px;text-anchor:middle;fill:#ffffff">
     <tspan
-       style="font-size:7.19999981px"
-       id="tspan3960">Block reaction 3</tspan>
+       style="font-size:7.19999981px;fill:#ffffff"
+       id="tspan3960">Reaction block3</tspan>
   </text>
-  <g
-     class="edge"
-     id="edge7"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title115">test_bk1-&gt;test_bk11</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path117"
-       d="m 317.5,-143.697 c 0,7.714 0,16.985 0,25.585" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon119"
-       points="317.5,-108.104 314,-118.104 321,-118.104 321,-118.104 " />
-  </g>
-  <g
-     class="edge"
-     id="edge8"
-     transform="matrix(0.5,0,0,0.5,-0.17883204,129.44168)">
-    <title
-       id="title122">test_bk11-&gt;test_bk013</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path124"
-       d="m 317.5,-71.6966 c 0,7.7139 0,16.9841 0,25.5842" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon126"
-       points="317.5,-36.1043 314,-46.1044 321,-46.1043 321,-46.1043 " />
-  </g>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 159.08998,57.59317 c 0,3.857 0,8.4925 0,12.7925"
+     id="path117"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-width:0.5;stroke-opacity:1;marker-end:" />
+  <polygon
+     points="314,-118.104 321,-118.104 321,-118.104 317.5,-108.104 "
+     id="polygon119"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-opacity:1;marker-end:"
+     transform="matrix(0.5,0,0,0.5,0.3399773,129.44167)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 159.08998,93.59337 c 0,3.85695 0,8.49205 0,12.7921"
+     id="path124"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-width:0.5;stroke-opacity:1;marker-end:" />
+  <polygon
+     points="314,-46.1044 321,-46.1043 321,-46.1043 317.5,-36.1043 "
+     id="polygon126"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-opacity:1;marker-end:"
+     transform="matrix(0.5,0,0,0.5,0.3399773,129.44167)" />
   <text
      xml:space="preserve"
-     style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-     x="48.725124"
-     y="38.238293"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="49.243935"
+     y="38.238285"
      id="text2940"><tspan
        sodipodi:role="line"
        id="tspan2942"
-       x="48.725124"
-       y="38.238293"
-       style="font-size:5.5999999px;fill:#808080">Or node</tspan></text>
+       x="49.243935"
+       y="38.238285"
+       style="font-size:5.5999999px;fill:#808080">And node</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-     x="89.653206"
-     y="73.783623"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="90.172012"
+     y="73.783615"
      id="text2940-2"><tspan
        sodipodi:role="line"
        id="tspan2942-4"
-       x="89.653206"
-       y="73.783623"
+       x="90.172012"
+       y="73.783615"
        style="font-size:5.5999999px;fill:#808080">And node</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-     x="160.56746"
-     y="73.783623"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="161.08627"
+     y="73.783615"
      id="text2940-2-2"><tspan
        sodipodi:role="line"
        id="tspan2942-4-1"
-       x="160.56746"
-       y="73.783623"
+       x="161.08627"
+       y="73.783615"
        style="font-size:5.5999999px;fill:#808080">And node</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-     x="5.2284808"
-     y="73.783623"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="5.7472901"
+     y="73.783615"
      id="text2940-2-7"><tspan
        sodipodi:role="line"
        id="tspan2942-4-6"
-       x="5.2284808"
-       y="73.783623"
+       x="5.7472901"
+       y="73.783615"
        style="font-size:5.5999999px;fill:#808080">And node</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-     x="147.00914"
-     y="38.334476"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="147.52795"
+     y="38.334469"
      id="text2940-0"><tspan
        sodipodi:role="line"
        id="tspan2942-0"
-       x="147.00914"
-       y="38.334476"
-       style="font-size:5.5999999px;fill:#808080">Or node</tspan></text>
-  <g
-     class="node"
-     id="Block reaction 2-9"
-     transform="matrix(0.5,0,0,0.5,76.937828,59.339995)"
-     style="stroke:none">
-    <title
-       id="title31-9">test_bk02</title>
-    <path
-       style="fill:#ffc0cb;stroke:none"
-       id="path33-2"
-       d="m 95,-108 c 0,0 -83,0 -83,0 -6,0 -12,6 -12,12 0,0 0,12 0,12 0,6 6,12 12,12 0,0 83,0 83,0 6,0 12,-6 12,-12 0,0 0,-12 0,-12 0,-6 -6,-12 -12,-12" />
-    <text
-       style="font-size:14px;text-anchor:middle;fill:#0000ff;stroke:none;font-family:'Times,serif'"
-       id="text35-6"
-       font-size="14.00"
-       y="-86.300003"
-       x="53.5">
-      <tspan
-         style="font-size:14.39999962px"
-         id="tspan3964">PathwayX</tspan>
-    </text>
-  </g>
-  <g
-     id="g3829"
-     transform="matrix(0.5,0,0,0.5,-0.98391204,38.238305)">
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0"
-       id="path82-8"
-       d="m 332.02285,111.2077 c 16.496,9.2373 37.046,20.7453 54.758,30.6645" />
-    <polygon
-       transform="translate(108.94485,183.0838)"
-       style="fill:#000000;stroke:#000000"
-       id="polygon84-5"
-       points="276.369,-38.0221 279.789,-44.1296 279.789,-44.1296 286.804,-36.1898 " />
-  </g>
-  <g
-     id="g3829-4"
-     transform="matrix(0.5,0,0,0.5,7.380488,0.7976219)">
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0"
-       id="path82-8-6"
-       d="m 332.02285,111.2077 c 16.496,9.2373 37.046,20.7453 54.758,30.6645" />
-    <polygon
-       transform="translate(108.94485,183.0838)"
-       style="fill:#000000;stroke:#000000"
-       id="polygon84-5-2"
-       points="279.789,-44.1296 286.804,-36.1898 276.369,-38.0221 279.789,-44.1296 " />
-  </g>
-  <g
-     class="edge"
-     id="edge3-9"
-     transform="matrix(0.5,0,0,0.5,43.632178,94.971525)">
-    <title
-       id="title38-2">test_bk0-&gt;test_bk02</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path40-6"
-       d="m 105.444,-143.697 c -8.4395,8.562 -18.7686,19.041 -27.9867,28.393" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon42-6"
-       points="79.8727,-112.769 79.8727,-112.769 70.36,-108.104 74.8874,-117.683 " />
-  </g>
-  <g
-     class="edge"
-     id="edge1-7"
-     transform="matrix(0.5,0,0,0.5,49.621838,95.253165)">
-    <title
-       id="title24-2">test_bk0-&gt;test_bk01</title>
-    <path
-       style="fill:none;stroke:#000000"
-       id="path26-5"
-       d="m 139.803,-143.697 c 8.562,8.562 19.041,19.041 28.393,28.393" />
-    <polygon
-       style="fill:#000000;stroke:#000000"
-       id="polygon28-0"
-       points="170.799,-117.65 170.799,-117.65 175.396,-108.104 165.85,-112.701 " />
-  </g>
+       x="147.52795"
+       y="38.334469"
+       style="font-size:5.5999999px;fill:#808080">And node</tspan></text>
+  <text
+     x="104.20663"
+     y="16.189987"
+     font-size="14.00"
+     id="text35-6"
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;stroke:none;">
+    <tspan
+       id="tspan3964"
+       style="font-size:7.19999981px;fill:#ffffff;">PathwayX</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     id="path3449"
+     d="m 218.23998,111.44167 c 0,0 -25.5,0 -25.5,0 -3,0 -6,3 -6,6 0,0 0,6 0,6 0,3 3,6 6,6 0,0 25.5,0 25.5,0 3,0 6,-3 6,-6 0,0 0,-6 0,-6 0,-3 -3,-6 -6,-6" />
+  <text
+     style="font-size:7px;text-anchor:middle;fill:#ffffff;stroke:none"
+     id="text3451"
+     font-size="14.00"
+     y="122.29167"
+     x="205.48997">
+    <tspan
+       style="font-size:7.19999981px;fill:#ffffff"
+       id="tspan3453">Reaction4</tspan>
+  </text>
+  <path
+     inkscape:connector-curvature="0"
+     d="m 165.54632,93.842149 c 8.248,4.61865 18.523,10.372651 27.379,15.332251"
+     id="path82-8"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-width:0.49999997;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:" />
+  <polygon
+     points="286.804,-36.1898 276.369,-38.0221 279.789,-44.1296 279.789,-44.1296 "
+     id="polygon84-5"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-opacity:1;marker-end:"
+     transform="matrix(0.5,0,0,0.5,54.007322,129.7802)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 96.896983,23.576298 C 92.662761,26.76278 87.480498,30.662703 82.855641,34.143195"
+     id="path40-6"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:0.50000001999999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <polygon
+     points="79.8727,-112.769 79.8727,-112.769 70.36,-108.104 74.8874,-117.683 "
+     id="polygon42-6"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     transform="matrix(0.4980842,0.04372788,-0.04372789,0.4980842,39.363417,88.267344)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 120.02967,22.17208 c 4.28853,3.691481 9.53724,8.20947 14.22146,12.241557"
+     id="path26-5"
+     style="fill:#7137c8;stroke:#7137c8;stroke-width:0.50000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <polygon
+     points="170.799,-117.65 170.799,-117.65 175.396,-108.104 165.85,-112.701 "
+     id="polygon28-0"
+     style="fill:#7137c8;stroke:#7137c8;stroke-opacity:1"
+     transform="matrix(0.49895701,-0.03227857,0.03227857,0.49895701,53.950658,97.446797)" />
   <text
      xml:space="preserve"
-     style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-     x="93.512917"
-     y="4.2546873"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     x="94.031723"
+     y="4.2546811"
      id="text2940-2-7-2"><tspan
        sodipodi:role="line"
        id="tspan2942-4-6-3"
-       x="93.512917"
-       y="4.2546873"
-       style="font-size:5.5999999px;fill:#808080">And node</tspan></text>
+       x="94.031723"
+       y="4.2546811"
+       style="font-size:5.5999999px;fill:#808080">Or node</tspan></text>
+  <text
+     id="text4665"
+     y="73.783615"
+     x="5.7472901"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-size:5.5999999px;fill:#808080"
+       y="73.783615"
+       x="5.7472901"
+       id="tspan4667"
+       sodipodi:role="line">And node</tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     d="M 128.73652,52.29214 C 109.05273,58.971399 84.961759,67.146119 63.462016,74.441661"
+     id="path5561"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-width:0.49160564;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <polygon
+     points="79.8727,-112.769 70.36,-108.104 74.8874,-117.683 79.8727,-112.769 "
+     id="polygon5563"
+     style="fill:#7137c8;fill-opacity:1;stroke:#7137c8;stroke-opacity:1;marker-end:"
+     transform="matrix(0.4514706,0.21488203,-0.21488207,0.4514706,4.1838518,109.4665)" />
+  <path
+     style="fill:#2a7fff;stroke:#2a7fff;stroke-width:0.50000000000000000;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+     id="path3773"
+     d="m 54.446576,57.06414 c -4.21975,4.281 -9.3843,9.5205 -13.99335,14.1965"
+     inkscape:connector-curvature="0" />
+  <polygon
+     style="fill:#2a7fff;stroke:#2a7fff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
+     id="polygon3775"
+     points="70.36,-108.104 74.8874,-117.683 79.8727,-112.769 79.8727,-112.769 "
+     transform="matrix(0.5,0,0,0.5,1.7245761,128.91264)" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 32.321456,93.485542 c -0.03988,4.295738 -0.0887,9.553288 -0.132224,14.245358"
+     id="path3781"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:0.42960306999999998;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  <polygon
+     points="70.36,-108.104 74.8874,-117.683 79.8727,-112.769 79.8727,-112.769 "
+     id="polygon3783"
+     style="fill:#2a7fff;fill-opacity:1;stroke:#2a7fff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     transform="matrix(0.37016468,-0.24920022,0.36021077,0.25608656,45.051018,156.56108)" />
+  <text
+     id="text4665-5"
+     y="110.88183"
+     x="0.25696954"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-size:5.5999999px;fill:#808080"
+       y="110.88183"
+       x="0.25696954"
+       id="tspan4667-1"
+       sodipodi:role="line">Leaf node</tspan></text>
+  <text
+     id="text4665-5-3"
+     y="110.88183"
+     x="45.642563"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-size:5.5999999px;fill:#808080"
+       y="110.88183"
+       x="45.642563"
+       id="tspan4667-1-0"
+       sodipodi:role="line">Leaf node</tspan></text>
+  <text
+     id="text4665-5-4"
+     y="110.88183"
+     x="104.66797"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-size:5.5999999px;fill:#808080"
+       y="110.88183"
+       x="104.66797"
+       id="tspan4667-1-7"
+       sodipodi:role="line">Leaf node</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+     x="146.40529"
+     y="111.16467"
+     id="text5735"><tspan
+       sodipodi:role="line"
+       id="tspan5737"
+       x="146.40529"
+       y="111.16467"
+       style="font-size:5.5999999px;fill:#808080">Leaf  node</tspan></text>
+  <text
+     id="text4665-5-4-6"
+     y="110.88183"
+     x="196.1149"
+     style="font-style:normal;font-weight:normal;font-size:16px;font-family:'Bitstream Vera Sans';fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-size:5.5999999px;fill:#808080"
+       y="110.88183"
+       x="196.1149"
+       id="tspan4667-1-7-4"
+       sodipodi:role="line">Leaf node</tspan></text>
 </svg>
